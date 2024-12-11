@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: calc(100% - 250px);
+    padding: 0px 125px;
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    width: 100%;
+    border: 2px solid rgba(117, 117, 117, 0.726);
+    border-radius: 5px;
+}
+
+.document {
+    position: relative;
+}
+
+.imgs {
+    width: calc(100% - 500px);
+    padding: 0px 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    background-image: url(img/knight.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(35%) sepia(10%) saturate(30%) opacity(0.3)
+
+}
+
+.description {
+    display: flex;
+    margin-top: 2px;
+}
+
+p {
+    text-align: justify;
+    position: relative;
+}
+
+.description-policy {
+    display: flex;
+    flex-direction: column;
+}
